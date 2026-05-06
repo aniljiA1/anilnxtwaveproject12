@@ -1,0 +1,6 @@
+/* src/pages/Transactions/Transactions.css */
+.transactions-page {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}

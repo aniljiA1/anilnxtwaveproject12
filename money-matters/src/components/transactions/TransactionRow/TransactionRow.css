@@ -1,0 +1,89 @@
+/* src/components/transactions/TransactionRow/TransactionRow.css */
+.transaction-row {
+  display: table-row;
+  transition: background 0.15s;
+}
+
+.transaction-row:hover td {
+  background: var(--bg-primary);
+}
+
+.transaction-row td {
+  padding: 14px 24px;
+  font-size: 14px;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.transaction-row:last-child td {
+  border-bottom: none;
+}
+
+.transaction-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.transaction-type-badge.credit {
+  background: var(--success-light);
+  color: var(--success);
+}
+
+.transaction-type-badge.debit {
+  background: var(--danger-light);
+  color: var(--danger);
+}
+
+.transaction-amount {
+  font-weight: 700;
+}
+
+.transaction-amount.credit {
+  color: var(--success);
+}
+
+.transaction-amount.debit {
+  color: var(--danger);
+}
+
+.transaction-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.action-icon-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.action-icon-btn.edit {
+  color: var(--primary);
+}
+
+.action-icon-btn.edit:hover {
+  background: var(--primary-light);
+}
+
+.action-icon-btn.delete {
+  color: var(--danger);
+}
+
+.action-icon-btn.delete:hover {
+  background: var(--danger-light);
+}

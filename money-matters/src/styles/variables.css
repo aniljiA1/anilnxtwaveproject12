@@ -1,0 +1,25 @@
+/* src/styles/variables.css */
+:root {
+  --primary: #2d60ff;
+  --primary-light: #e8edff;
+  --secondary: #396aff;
+  --success: #16dbaa;
+  --success-light: #dcfaf8;
+  --danger: #fd5c63;
+  --danger-light: #ffe0e0;
+  --warning: #ffbb38;
+  --warning-light: #fff5d9;
+  --text-primary: #343c6a;
+  --text-secondary: #718ebf;
+  --text-muted: #b1b1b1;
+  --bg-primary: #f5f7fa;
+  --bg-white: #ffffff;
+  --sidebar-bg: #ffffff;
+  --border: #e6eff5;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --radius: 16px;
+  --radius-sm: 8px;
+  --sidebar-width: 250px;
+  --navbar-height: 70px;
+  --font: 'Roboto', sans-serif;
+}

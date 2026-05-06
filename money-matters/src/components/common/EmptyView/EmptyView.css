@@ -1,0 +1,48 @@
+/* src/components/common/EmptyView/EmptyView.css */
+.empty-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 24px;
+  text-align: center;
+  gap: 12px;
+  color: var(--text-secondary);
+}
+
+.empty-view-icon {
+  font-size: 48px;
+  opacity: 0.4;
+}
+
+.empty-view-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.empty-view-subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  gap: 12px;
+  text-align: center;
+}
+
+.failure-view-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--danger);
+}
+
+.failure-view-subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+}

@@ -1,0 +1,23 @@
+/* src/components/transactions/DeleteModal/DeleteModal.css */
+.delete-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.delete-modal-text {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.delete-modal-name {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.delete-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
