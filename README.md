@@ -76,7 +76,7 @@ src/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/aniljiA1/anilnxtwaveproject12.git
 cd YOUR_REPO_NAME
 ```
 
